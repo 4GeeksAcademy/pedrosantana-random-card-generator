@@ -1,1 +1,40 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  width: 300px;
+  height: 400px;
+  border-radius: 8px;
+  border: black solid 2px;
+  cursor: pointer;
+}
+.up {
+  height: 15%;
+  display: flex;
+  color: red;
+}
+#number {
+  display: flex;
+  font-size: 150px;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+}
+.down {
+  display: flex;
+  height: 15%;
+  justify-content: end;
+  color: red;
+}
+#suitdown {
+  transform: rotate(180deg);
+}
+h3 {
+  font-size: 50px;
+}
+body {
+  background-color: green;
+}
